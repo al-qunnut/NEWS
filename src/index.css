@@ -1,0 +1,52 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.realistic{
+     background-image: url('../src/assets/RealisticPic.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+
+.Home{
+     background-image: url('../src/assets/Homepage.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100vw;
+     height: 100vh;
+     position: relative;
+}
+
+.HomeText{
+     position: absolute;
+     top: 40%;
+     left: 10%;
+     right: 10% ;
+}
+
+.About{
+     background-image: url('../src/assets/AboutUs.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 70vh;
+     width: 100vw;
+     position: relative;
+}
+
+.AboutText{
+     position: absolute;
+     top: 50%;
+     left: 10%;
+}
+
+.Latest{
+     background-image: url('../src/assets/AboutUsLatest.png');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+}
